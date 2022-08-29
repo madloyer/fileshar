@@ -1,12 +1,12 @@
 {
-  "name": "Mafia Telegram",
+  "name": "Whycio Telegram",
   "description": "file sharing bot store posts and it can access by special links",
   "keywords": [
  
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/Dionprastt/protectconten",
+  "repository": "https://github.com/cioyourfvboynih/proteckcio",
   
   "env": {
     "TG_BOT_TOKEN": {
@@ -15,15 +15,15 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "1780709155"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "8910258"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "fbfe41a82f2a5fee2f07606392679515"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
@@ -31,7 +31,7 @@
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
+      "value": "-100"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
@@ -39,7 +39,7 @@
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
+      "value": "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nCio Please join Channel</b>"
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
