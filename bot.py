@@ -1,5 +1,5 @@
 #(©)Codexbotz
-# @IstMeYons
+# @cioyourfvboy
 
 import pyromod.listen
 from pyrogram import Client
@@ -36,7 +36,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
                 self.LOGGER(__name__).warning(f"Please Double check the FORCE_SUB_CHANNEL value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {FORCE_SUB_CHANNEL}")
-                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/File_Sharing_Support for support")
+                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/whycio for support")
                 sys.exit()
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
@@ -50,7 +50,7 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode("html")
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by 𝑴𝒂𝒇𝒊𝒂 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎/https://t.me/File_Sharing_Support")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by 𝘸𝘩𝘺𝘤𝘪𝘰 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎/https://t.me/whycio")
         self.username = usr_bot_me.username
 
     async def stop(self, *args):
