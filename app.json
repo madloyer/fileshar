@@ -6,32 +6,32 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/cioyourfvboynih/proteckcio",
+  "repository": "https://github.com/madloyer/filesharingprotect",
   
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "5240313087:AAE-pv0ski94MhX_zqk4rThYJ4kjOY91cxs"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1780709155"
+      "value": "1281619082"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": "8910258"
+      "value": "19362834"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": "fbfe41a82f2a5fee2f07606392679515"
+      "value": "0c611d09b84a21b804c940de2681737e"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "-1001833806798"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "-100"
+      "value": "-1001165054009"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
@@ -43,12 +43,12 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "value": "1281619082",
       "required": false
     },
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
-      "value": "False",
+      "value": "True",
       "required": false
     }
   },
